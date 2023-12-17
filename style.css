@@ -86,22 +86,26 @@ body {
     gap: 02%;
 }
 
+.details-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+
 .details {
     border-bottom: 1px dotted gray;
     padding-bottom: 10px;
-    position: relative;
 }
 
 .details-1 {
     border-bottom: 1px dotted gray;
     padding-bottom: 10px;
-    position: relative;
 }
 
 .details-2 {
     border-bottom: 1px dotted gray;
     padding-bottom: 10px;
-    position: relative;
 }
 
 .number-1 {
@@ -112,11 +116,10 @@ body {
     font-size: 500%;
     background-color: transparent;
     color: #fdffe7;
-    left: 50%;
+    left: -35%;
+    padding: 5.0px;
     background-color: rgba(0, 0, 138, .7);
-    width: 108.5px;
-    border-bottom-right-radius: 20px;
-    height: 70%;
+    height: 100%;
 }
 
 .number-2 {
@@ -127,9 +130,11 @@ body {
     font-size: 500%;
     background-color: transparent;
     color: #fdffe7;
-    left: 50%;
-    border-bottom-right-radius: 20px;
-    width: 108.5px;
+    padding: 5.0px;
+    left: -35%;
+    background-color: rgba(0, 0, 138, .7);
+    height: 100%;
+
 }
 
 .number-3 {
@@ -140,11 +145,11 @@ body {
     font-size: 500%;
     background-color: transparent;
     color: #fdffe7;
-    left: 50%;
-    background-color: rgba(0, 0, 138);
-    width: 108.5px;
+    padding: 5.0px;
+    left: -35%;
+    background-color: rgba(0, 0, 138, .7);
     border-bottom-right-radius: 20px;
-    height: 1rem;
+    height: 100%;
 }
 
 footer {
@@ -206,7 +211,7 @@ span {
     height: 2rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 988px) {
     .sec-1 {
         flex-wrap: wrap;
         width: fit-content;
@@ -237,7 +242,7 @@ span {
         background-color: rgba(0, 0, 138, .7);
         width: 108.5px;
         border-bottom-right-radius: 20px;
-        height: 60%;
+        height: 70%;
     }
 
     footer {
